@@ -16,6 +16,9 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
+    dir: {
+      input: 'src'
+    }
   }
 
 };
